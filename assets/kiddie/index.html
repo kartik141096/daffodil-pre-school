@@ -1,0 +1,2272 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from www.zoutula.com/themes/kiddie/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 May 2024 17:32:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="xmlrpc.php">
+<title>Kiddie | Kindergarten, Preschool &#8211; Responsive WordPress Theme</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='http://maps.googleapis.com/' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel="alternate" type="application/rss+xml" title="Kiddie &raquo; Feed" href="feed" />
+<link rel="alternate" type="application/rss+xml" title="Kiddie &raquo; Comments Feed" href="comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Kiddie &raquo; Home Comments Feed" href="home/feed" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.14.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="http://www.googletagmanager.com/gtag/js?id=UA-69846434-1"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.14.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+															'ga-disable-UA-69846434-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+							
+														parameters.send_to = monsterinsights_frontend.ua;
+							__gtagDataLayer(type, name, parameters);
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+															__gtagTracker('config', 'UA-69846434-1', {"forceSSL":"true","anonymize_ip":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.zoutula.com\/themes\/kiddie\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='wp-color-picker-css' href='wp-admin/css/color-picker.min5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='admin_custom-css' href='wp-content/themes/kiddie/css/kiddie-widgets5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/kiddie/css/bootstrap.min5352.css?ver=6.4.4' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-vendors-style-css' href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-styleab5d.css?ver=10.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css' href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-styleab5d.css?ver=10.0.4' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/stylescfaa.css?ver=5.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fastgallery-vc-main-style-css' href='wp-content/plugins/fastgallery_vc/assets/css/style5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='timetable_sf_style-css' href='wp-content/plugins/timetable/style/superfish5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='timetable_gtip2_style-css' href='wp-content/plugins/timetable/style/jquery.qtip5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='timetable_style-css' href='wp-content/plugins/timetable/style/style5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='timetable_event_template-css' href='wp-content/plugins/timetable/style/event_template5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='timetable_responsive_style-css' href='wp-content/plugins/timetable/style/responsive5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='timetable_font_lato-css' href='http://fonts.googleapis.com/css?family=Lato%3A400%2C700&amp;ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='wp-content/plugins/woocommerce/assets/css/woocommerce-layout4c53.css?ver=7.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen4c53.css?ver=7.7.0' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='wp-content/plugins/woocommerce/assets/css/woocommerce4c53.css?ver=7.7.0' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='js_composer_front-css' href='wp-content/plugins/js_composer/assets/css/js_composer.min9c09.css?ver=6.11.0' type='text/css' media='all' />
+<link rel='stylesheet' id='vc-pricing-box-front-css' href='wp-content/plugins/vc-pricing-box/assets/pricing-box-frontend5352.css?ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='kiddie-style-css' href='wp-content/themes/kiddie/style2f54.css?ver=4.1' type='text/css' media='all' />
+<style id='kiddie-style-inline-css' type='text/css'>
+body, aside a{
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 400;
+        }
+    a,
+    .ztl-link,
+    .ztl-title-medium,
+    .ztl-staff-item .staff-title,
+    .no-results .page-title,
+    .category-listing .title a,
+    .ztl-masonry h4{
+        color: #704f32;
+     }
+    .ztl-widget-recent-posts h6 a:hover{
+        color: #704f32;
+    }
+    .post-navigation .nav-previous a:hover,
+    .post-navigation .nav-next a:hover{
+        color: #704f32;
+    }
+    .ztl-masonry .read-more a:hover{
+        background-color: #704f32 !important;
+        color: #ffd823 !important;
+    }
+    a:visited,
+    a:active,
+    a:focus,
+    .sidebar-right .menu a{
+        color: #704f32;
+    }
+    a:hover,
+    .sidebar-right li>a:hover {
+        color: #704f32;
+    }
+
+    #ztl-social .fa:hover{
+        color: #ffd823;
+    }
+
+    #menu-toggle span {
+        background-color:#93c524;
+    }
+    #ztl-copyright{
+        color: #ffd823;
+    }
+    #ztl-copyright a{
+	text-decoration:underline;
+	cursor:pointer;
+	color: #ffd823;
+    }
+    .main-navigation a{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+     }
+
+    .main-navigation li:nth-child(4n+1) {
+        color: #f25141;
+    }
+    .main-navigation li:nth-child(4n+2) {
+        color: #ffd823;
+    }
+    .main-navigation li:nth-child(4n+3) {
+        color: #93c524;
+    }
+    .main-navigation li:nth-child(4n+4) {
+        color: #28a8e3;
+    }
+    .main-navigation ul ul:before {
+        background-color: #93c524;
+    }
+    .main-navigation ul li:hover{
+        background-color: #93c524;
+    }
+    .main-navigation ul ul li:hover{
+        background-color: transparent !important;
+    }
+    .main-navigation ul ul li:hover a{
+        color:#fff;
+    }
+    .main-navigation ul ul li:hover > a{
+        background-color: #93c524;
+    }
+    .main-navigation a{
+        color: #707070 !important;
+    }
+    .main-navigation li .current_page_item > a,
+    .main-navigation li .current_page_ancestor > a,
+    .main-navigation li .current-menu-item > a,
+    .main-navigation li .current-menu-ancestor > a {
+        color: #fff !important;
+        background-color: #93c524;
+    }
+    .main-navigation .current_page_item > a,
+    .main-navigation .current_page_ancestor > a,
+    .main-navigation .current-menu-item > a,
+    .main-navigation .current-menu-ancestor > a {
+        color: #fff !important;
+    }
+
+    .main-navigation .sub-menu li.current-menu-item > a,
+    .main-navigation .sub-menu li.current_page_item > a{
+    	color: #fff !important;
+    }
+
+    .main-navigation .current_page_item,
+    .main-navigation .current_page_ancestor,
+    .main-navigation .current-menu-item,
+    .main-navigation .current-menu-ancestor {
+        background-color: #93c524;
+    }
+
+    .main-navigation ul ul .current_page_item,
+    .main-navigation ul ul .current_page_ancestor,
+    .main-navigation ul ul .current-menu-item,
+    .main-navigation ul ul .current-menu-ancestor {
+        background-color:#fdfdfd;
+    }
+
+    .main-navigation ul ul .current_page_item,
+    .main-navigation ul ul .current-menu-item{
+        background-color: transparent !important;
+    }
+    .main-navigation .current_page_item ul a,
+    .main-navigation .current-menu-item ul a{
+        color: #707070 !important;
+    }
+    .main-navigation ul ul .fa{
+        display:none;
+    }
+    .post-navigation .fa {
+        color: #93c524;
+    }
+    .custom .tp-bullet, .custom .tp-bullet:after {
+		color:rgba(242,81,65,0.6) !important;
+    }
+    .custom .tp-bullet.selected:after{
+        color:#f25141 !important;
+    }
+
+    .tp-leftarrow, .tp-rightarrow{
+        background-color:#ffd823 !important;
+    }
+    .ztl-widget-title-dark,
+    .widget-home.widget_text .widget-title,
+    .dark-title,
+    .comment-reply-title,
+    .ztl-action-title,
+    .ztl-contact-form h2{
+        color:#704825;
+    }
+    .ztl-widget-title-light{
+        color:#ffffff;
+    }
+    .site-footer .site-info{
+        background-color:#56371b;
+    }
+    .site-header, .main-navigation ul ul{
+        background-color:#fdfdfd;
+    }
+
+     .ztl-widget-title-right h2,
+     .sidebar-right h2{
+        color:#704825;
+     }
+
+    .category-listing .item i,
+    .ztl-post i,
+    .ztl-widget-recent-posts ul>li>a+h6+span i{
+        color: #93c524;
+    }
+
+    .ztl-scroll-top:hover{
+        background-color: #93c524;
+    }
+
+    .ztl-button,
+    .ztl-button-circle,
+    .category-listing .item .read-more a,
+    .comment-body .reply a,
+    .ztl-contact-form input[type=submit],
+    .post-password-form input[type=submit]{
+        color:#704825;
+        background-color:#ffd823;
+    }
+    .ztl-button:hover,
+    .ztl-button-circle:hover,
+    .category-listing .item .read-more a:hover,
+    .comment-body .reply a:hover,
+    .ztl-contact-form input[type=submit]:hover,
+    .post-password-form input[type=submit]:hover {
+        background-color:#704825;
+        color:#ffd823;
+    }
+    .pagination .page-numbers {
+        color:#704825;
+    }
+    .pagination .current,
+    .pagination .current:hover,
+    .vc_tta-color-white.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-heading:hover {
+        color:#704825 !important;
+        background-color:#ffd823 !important;
+     }
+    .pagination .page-numbers:hover {
+        background-color: #704825;
+        color:#ffd823;
+    }
+    .pagination .prev:hover,
+    .pagination .next:hover {
+        color:#ffd823;
+        background-color:transparent !important;}
+
+    .ztl-contact-form input[type=submit]{
+        color:#704f32;
+        background-color: #ffd823;
+    }
+    .ztl-masonry-buttons li.vc_active,
+    .ztl-masonry-buttons .vc_grid-filter-item:hover,
+    .ztl-masonry .read-more a{
+        background-color:#ffd823 !important;
+    }
+    .ztl-masonry-buttons .vc_grid-filter-item,
+    .ztl-masonry .read-more a,
+    .ztl-masonry-buttons .vc_active span,
+    .ztl-masonry-buttons .vc_grid-filter-item:hover span {
+        color:#704825 !important;
+    }
+    .ztl-masonry .vc_pageable-load-more-btn a{
+        background-color:#93c524;
+    }
+    .category-sidebar-right .widget_text li:before,
+    .post-sidebar-right .widget_text li:before,
+    .ztl-post-info:before{
+        color:#93c524;
+    }
+    .ztl-masonry .vc_pageable-load-more-btn a:hover{
+        color:#704825 !important;
+    }
+    .comment-author,
+    .comments-title,
+    .ztl-course-item .course-title,
+    .ztl-course-item .detail{
+        color: #704825 !important;
+    }
+    .sidebar-right .widget-title::after,
+    .custom-header-title::after,
+    .widget-title::after{
+        background-color: #ffd823;
+    }
+    .sidebar-footer{
+        background-color: #704825;
+    }
+    .ztl-widget-category-container .author a,
+    .ztl-widget-category-container .category,
+    .ztl-widget-category-container .category a,
+    .ztl-widget-category-container .entry-date,
+    .ztl-widget-category-container .entry-date a,
+    .category-listing .item .date,
+    .category-listing .item .date a,
+    .category-listing .info a,
+    .category-listing .info,
+    .posted-on a, .byline,
+    .byline .author a,
+    .ztl-masonry .vc_gitem-post-data,
+    .entry-footer, .comment-form,
+    .entry-footer a,
+    .ztl-recent-post-date,
+    .ztl-recent-post-date a,
+    .ztl-post .info,
+    .comment-metadata a,
+    .ztl-post .info a{
+        color:#a0a0a0;
+    }
+    .menu-item-3336 a:after, 
+.menu-item-3335 a:after,
+.menu-item-3334 a:after,
+.menu-item-3333 a:after,
+.menu-item-3480 a:after,
+.menu-item-3490 a:after{
+content:'New';
+display:inline-block;
+font-size:9px;
+float:right;
+background-color: #93C529;
+border-radius:50%;
+width:32px;
+height:32px;
+text-align:center;
+line-height:30px;
+color:#fff;
+margin-top:-4px;
+}
+
+		.widget.woocommerce ul li .quantity,
+		.widget.woocommerce ul li .amount,
+		.woocommerce .widget_shopping_cart .total,
+		.woocommerce.widget_shopping_cart .total,
+		.woocommerce .product .amount,
+		.price_slider_amount .price_label,
+		.widget.woocommerce  .reviewer{
+			color:#a0a0a0;
+		}
+		.woocommerce a.button.added:after,
+		.woocommerce div.product form.cart .variations label{
+        	color: #704825 !important;
+    	}
+    	.woocommerce #respond input#submit:hover,
+    	.woocommerce a.button:hover,
+    	.woocommerce button.button:hover,
+    	.woocommerce input.button:hover,
+    	.woocommerce a.button.alt:hover,
+		.woocommerce button.button.alt:hover,
+		.woocommerce input.button.alt:hover,
+		.woocommerce .single_add_to_cart_button:hover{
+        	background-color:#704825;
+        	color:#ffd823;
+    	}
+    	.woocommerce #respond input#submit,
+		.woocommerce a.button,
+		.woocommerce button.button,
+		.woocommerce input.button,
+		.woocommerce a.button.alt,
+		.woocommerce button.button.alt,
+		.woocommerce input.button.alt{
+			color:#704825;
+			background-color:#ffd823;
+		}
+
+		.woocommerce #respond input#submit.alt.disabled,
+		.woocommerce #respond input#submit.alt.disabled:hover,
+		.woocommerce #respond input#submit.alt:disabled,
+		.woocommerce #respond input#submit.alt:disabled:hover,
+		.woocommerce #respond input#submit.alt:disabled[disabled],
+		.woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+		.woocommerce a.button.alt.disabled,
+		.woocommerce a.button.alt.disabled:hover,
+		.woocommerce a.button.alt:disabled,
+		.woocommerce a.button.alt:disabled:hover,
+		.woocommerce a.button.alt:disabled[disabled],
+		.woocommerce a.button.alt:disabled[disabled]:hover,
+		.woocommerce button.button.alt.disabled,
+		.woocommerce button.button.alt.disabled:hover,
+		.woocommerce button.button.alt:disabled,
+		.woocommerce button.button.alt:disabled:hover,
+		.woocommerce button.button.alt:disabled[disabled],
+		.woocommerce button.button.alt:disabled[disabled]:hover,
+		.woocommerce input.button.alt.disabled,
+		.woocommerce input.button.alt.disabled:hover,
+		.woocommerce input.button.alt:disabled,
+		.woocommerce input.button.alt:disabled:hover,
+		.woocommerce input.button.alt:disabled[disabled],
+		.woocommerce input.button.alt:disabled[disabled]:hover{
+			color:#704825;
+			background-color:#ffd823;
+		}
+
+		.woocommerce p.stars a,
+		.woocommerce .star-rating:before,
+		.woocommerce .star-rating {
+			color:#ffd823;
+		}
+		.woocommerce span.onsale,
+		.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+		.woocommerce .widget_price_filter .ui-slider .ui-slider-range{
+			background-color: #93c524;
+		}
+
+		.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content{
+			background-color:rgba(147,197,36,0.5);
+		}
+		.woocommerce-page #content h1,
+		.woocommerce-page #content h2,
+		.woocommerce-page #content h3,
+		.woocommerce-thankyou-order-received,
+		.woocommerce form .form-row label{
+			color:#704825;
+		}
+.ztl-widget-staff-2 .owl-dots .owl-dot span{ color:#f25141;}
+    .ztl-widget-staff-2 .owl-buttons{ color:#f25141;}
+    .ztl-widget-staff-2 .owl-item{ float:left; }
+    .ztl-widget-staff-2 .owl-nav{ display:none; }
+    .ztl-widget-staff-2 .ztl-staff-upper { background-color:rgba(147,197,36,0.75);}
+    .ztl-widget-staff-2 .ztl-circle-staff-contact{ background-color: rgba(0,0,0,0.35);}
+    .ztl-widget-staff-2 .ztl-staff-navigation{background-color:rgba(112,72,37,0.7);}
+    .ztl-widget-staff-2 .ztl-staff-navigation:hover{background-color:#704825;}
+.ztl-widget-courses-2 .item-course-title { color:#ffffff; }
+                                    .ztl-widget-courses-2 .item-course-1 .item-get-in-touch a:hover{color:#f25141;}
+                                    .ztl-widget-courses-2 .item-course-2 .item-get-in-touch a:hover{color:#93c524;}
+                                    .ztl-widget-courses-2 .item-course-3 .item-get-in-touch a:hover{color:#28a8e3;}
+                                    .ztl-widget-courses-2 .item-course-1 .item-get-in-touch a{color:#fff; background-color:#ff614f;}
+                                    .ztl-widget-courses-2 .item-course-2 .item-get-in-touch a{color:#fff; background-color:#a4d638;}
+                                    .ztl-widget-courses-2 .item-course-3 .item-get-in-touch a{color:#fff; background-color:#42b7f3;}
+.ztl-widget-testimonials-2 { background-color:#f25141;}
+							    .ztl-widget-testimonials-2 .owl-item{ float:left; }
+    							.ztl-widget-testimonials-2 .owl-nav{ display:none; }
+.ztl-widget-testimonials-3 { background-color:#28a8e3;}
+							    .ztl-widget-testimonials-3 .owl-item{ float:left; }
+    							.ztl-widget-testimonials-3 .owl-nav{ display:none; }
+.ztl-widget-gallery-2 .item-isotope a .icon-gallery{color: #fff}
+.ztl-widget-gallery-3 .item-isotope a .icon-gallery{color: #fff}
+.ztl-widget-numbers-2 .overlay { background-color: rgba(115,99,87,0.6); }
+.ztl-widget-numbers-3 .overlay { background-color: rgba(115,99,87,0.6); }
+.ztl-widget-category-2 .category i, .ztl-widget-category-2 .author i  { color:#93c524;}
+.ztl-widget-contact-2 input, .ztl-widget-contact-2 textarea { background-color:#704825;}
+    .ztl-widget-contact-2 input[type=submit] { background-color:#ffd823; color:#704825 ; }
+    .ztl-widget-contact-2 input[type=submit]:hover { color:#ffd823; background-color:#704825 ; }
+    .ztl-widget-contact-2 { background-color:#87572D; }
+</style>
+<link rel='stylesheet' id='kiddie-woocommerce-css' href='wp-content/themes/kiddie/css/kiddie-woocommerce2f54.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='kiddie-style-responsive-css' href='wp-content/themes/kiddie/css/kiddie-responsive2f54.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='wp-content/themes/kiddie/css/font-awesome.min2f54.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css' href='wp-content/themes/kiddie/css/prettyPhoto2f54.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='kiddie-fonts-css' href='http://fonts.googleapis.com/css?family=Salsa%7COpen+Sans%3A300%2C400%2C600&amp;ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='kiddie-flaticon-css' href='wp-content/themes/kiddie/css/kiddie-flaticon2f54.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='kiddie-fonts-Open+Sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400&amp;ver=6.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='kiddie-style-owl-carousel-css' href='wp-content/themes/kiddie/css/owl.carousel.min2f54.css?ver=4.1' type='text/css' media='all' />
+<script type="text/javascript" src="wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag9220.js?ver=8.14.1" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/www.zoutula.com\/themes\/kiddie","hash_tracking":"false","ua":"UA-69846434-1","v4_id":""};/* ]]> */
+</script>
+<script type="text/javascript" src="wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/rbtools.min0660.js?ver=6.6.5" async id="tp-tools-js"></script>
+<script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/rs6.min0660.js?ver=6.6.5" async id="revmin-js"></script>
+<script type="text/javascript" src="wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min68cf.js?ver=2.7.0-wc.7.7.0" id="jquery-blockui-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/themes\/kiddie\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/themes\/kiddie\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/www.zoutula.com\/themes\/kiddie\/cart","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min4c53.js?ver=7.7.0" id="wc-add-to-cart-js"></script>
+<script type="text/javascript" src="wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart9c09.js?ver=6.11.0" id="vc_woocommerce-add-to-cart-js-js"></script>
+<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/7.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<meta name="generator" content="WordPress 6.4.4" />
+<meta name="generator" content="WooCommerce 7.7.0" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embedca4b.json?url=https%3A%2F%2Fwww.zoutula.com%2Fthemes%2Fkiddie%2F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed2659?url=https%3A%2F%2Fwww.zoutula.com%2Fthemes%2Fkiddie%2F&amp;format=xml" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.6.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home page-template page-template-template-home page-template-template-home-php page page-id-7 theme-kiddie woocommerce-no-js wpb-js-composer js-comp-ver-6.11.0 vc_responsive">
+<div id="page" class="hfeed site ">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<div id="head-frame">
+	<header id="masthead" class="site-header">		
+		<div class="container">
+			<div id="logo" style="width:140px;">
+				<a href="index.html" rel="home">
+					<img class="logo-img" src="wp-content/themes/kiddie/images/logo.png" alt="Kiddie" data-rjs="2" />
+				</a>
+			</div>
+			<div id="menu-toggle">
+				<!-- navigation hamburger -->
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div id="nav-mobile-wrapper">
+				<nav id="site-navigation" class="main-navigation">
+					<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-3289" class="fa fa-lg flaticon-home118 menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-3289"><a href="index.html" aria-current="page">Home</a></li>
+<li id="menu-item-3261" class="fa fa-lg flaticon-toy56 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3261"><a href="#">Blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-3291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3291"><a href="blog-full-width.html">Blog Full Width</a></li>
+	<li id="menu-item-3290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3290"><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+	<li id="menu-item-3295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3295"><a href="blog-masonry.html">Blog Masonry</a></li>
+	<li id="menu-item-3265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3265"><a href="blog/swimming-lessons-at-the-new-pool/index.html">Post Full Width</a></li>
+	<li id="menu-item-3266" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3266"><a href="blog/an-inspired-approach-to-education/index.html">Post Right Sidebar</a></li>
+</ul>
+</li>
+<li id="menu-item-3260" class="fa fa-lg flaticon-tree112 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3260"><a href="#">Pages</a>
+<ul class="sub-menu">
+	<li id="menu-item-3299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3299"><a href="grid-gallery.html">Grid Gallery</a></li>
+	<li id="menu-item-3297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3297"><a href="ii-columns-gallery.html">II Columns Gallery</a></li>
+	<li id="menu-item-3298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3298"><a href="iii-columns-gallery.html">III Columns Gallery</a></li>
+	<li id="menu-item-3300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3300"><a href="courses-listing.html">All Courses</a></li>
+	<li id="menu-item-3269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3269"><a href="course/super-kiddie/index.html">Single Course</a></li>
+	<li id="menu-item-3296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3296"><a href="staff-listing.html">All Teachers</a></li>
+	<li id="menu-item-3267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3267"><a href="staff/olivia-mitchell/index.html">Single Teacher</a></li>
+	<li id="menu-item-3301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3301"><a href="meal-menu.html">Meal Menu</a></li>
+	<li id="menu-item-3480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3480"><a href="enrollment.html">Enrollment</a></li>
+	<li id="menu-item-3490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3490"><a href="gallery-protected.html">Protected Page</a></li>
+	<li id="menu-item-3264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3264"><a href="page-not-found.html">Page Not Found</a></li>
+</ul>
+</li>
+<li id="menu-item-3263" class="fa fa-lg flaticon-trains3 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3263"><a href="#">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-3293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3293"><a href="contact-i.html">Contact I</a></li>
+	<li id="menu-item-3292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3292"><a href="contact-ii.html">Contact II</a></li>
+</ul>
+</li>
+<li id="menu-item-3262" class="fa fa-lg flaticon-apple55 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3262"><a href="#">Plans</a>
+<ul class="sub-menu">
+	<li id="menu-item-3294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3294"><a href="pricing-plans-i.html">Pricing Plans I</a></li>
+	<li id="menu-item-3272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3272"><a href="pricing-plans-ii.html">Pricing Plans II</a></li>
+	<li id="menu-item-3271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3271"><a href="pricing-plans-iii.html">Pricing Plans III</a></li>
+</ul>
+</li>
+<li id="menu-item-3353" class="fa fa-lg flaticon-shopping-bag menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3353"><a href="shop/index.html">Shop</a>
+<ul class="sub-menu">
+	<li id="menu-item-3336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3336"><a href="shop.html">Products</a></li>
+	<li id="menu-item-3335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3335"><a href="cart.html">Cart</a></li>
+	<li id="menu-item-3334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3334"><a href="cart.html">Checkout</a></li>
+	<li id="menu-item-3333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3333"><a href="my-account.html">My Account</a></li>
+</ul>
+</li>
+<li id="menu-item-3270" class="fa fa-lg flaticon-rocket78 menu-item menu-item-type-post_type menu-item-object-page menu-item-3270"><a href="about-us.html">About</a></li>
+</ul></div>				</nav><!-- #site-navigation -->
+				<div class="clear"></div>
+			</div>
+			
+		</div>
+	</header><!-- #masthead -->
+	</div>
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+			<!-- Nothing here for homepage -->
+		</main><!-- #main -->
+
+					<aside id="rev-slider-widget-3" class="widget widget-home widget_revslider"><h2 class="widget-title">Kiddie</h2>
+			<!-- START Kiddie Slider REVOLUTION SLIDER 6.6.5 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_4_1_wrapper" data-source="gallery" style="visibility:hidden;background:#ffffff;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_4_1" style="" data-version="6.6.5">
+					<rs-slides style="overflow: hidden; position: absolute;">
+						<rs-slide style="position: absolute;" data-key="rs-7" data-title="Slide 1" data-thumb="//www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/background-11-100x50.jpg" data-anim="adpr:false;">
+							<img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/background-11.jpg" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-4-slide-7-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:988px;y:-70px;"
+								data-text="l:22;"
+								data-dim="w:207px;h:207px;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								data-loop_0="y:25;"
+								data-loop_999="y:45;sp:10000;e:easeInOutSine;yym:t;yys:t;yyf:t;"
+								style="z-index:5;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="256" height="256" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-cloud1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-2" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:244px;y:8px;"
+								data-text="l:22;"
+								data-dim="w:107px;h:107px;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								data-loop_0="y:35;"
+								data-loop_999="sp:20000;e:easeInOutSine;yym:t;yys:t;yyf:t;"
+								style="z-index:6;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="256" height="256" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-cloud1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:602px;y:-42px;"
+								data-text="l:22;"
+								data-dim="w:163px;h:163px;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								data-loop_0="y:30;"
+								data-loop_999="y:60;sp:14000;e:easeInOutSine;yym:t;yys:t;yyf:t;"
+								style="z-index:7;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="256" height="256" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-cloud1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-4" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:48px;y:154px;"
+								data-text="l:22;"
+								data-dim="w:35.875;h:35;"
+								data-frame_0="y:bottom;o:1;rZ:147;tp:600;"
+								data-frame_1="rZ:147;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:8;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-star1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-5" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:136px;y:22px;"
+								data-text="l:22;"
+								data-dim="w:31.775;h:31;"
+								data-frame_0="y:bottom;o:1;rZ:21;tp:600;"
+								data-frame_1="rZ:21;tp:600;e:easeOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:9;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-star1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-6" 
+								class="lightgreenopensans"
+								data-type="text"
+								data-color="rgba(147,197,36,1)"
+								data-rsp_ch="on"
+								data-xy="x:546px;y:150px;"
+								data-text="s:48;l:48;fw:300;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;y:50px;o:0;"
+								data-frame_1="tp:600;st:2500;sp:750;"
+								data-frame_1_words="d:10;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:10;font-family:'Open Sans';text-shadow:none;type:text;"
+							>Welcome to Kiddie! 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-7" 
+								class="light-green-lemon"
+								data-type="text"
+								data-color="rgba(147,197,36,1)"
+								data-rsp_ch="on"
+								data-xy="x:549px;y:215px;"
+								data-text="s:90;l:90;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:25;y:50px;o:0;"
+								data-frame_1="tp:600;st:2500;sp:500;"
+								data-frame_1_words="d:25;"
+								data-frame_999="st:w;sp:500;auto:true;"
+								style="z-index:11;font-family:'Salsa';type:text;"
+							>Play, learn 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-8" 
+								class="light-green-lemon-small"
+								data-type="text"
+								data-color="rgba(147,197,36,1)"
+								data-rsp_ch="on"
+								data-xy="x:553px;y:317px;"
+								data-text="s:50;l:50;"
+								data-dim="w:467px;h:42px;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:25;y:50px;o:0;"
+								data-frame_1="tp:600;st:2500;sp:500;"
+								data-frame_1_words="d:25;"
+								data-frame_999="st:w;sp:500;auto:true;"
+								style="z-index:12;font-family:'Salsa';text-shadow:none;type:text;"
+							>and grow together. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-10" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:520px;y:124px;"
+								data-text="l:22;"
+								data-dim="w:27.36842105263158;h:26;"
+								data-frame_0="y:bottom;o:1;rZ:339;tp:600;"
+								data-frame_1="rZ:339;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:13;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-star1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-11" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1080px;y:189px;"
+								data-text="l:22;"
+								data-dim="w:34.849999999999994;h:34;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:14;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-star1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-12" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:832px;y:90px;"
+								data-text="l:22;"
+								data-dim="w:36;h:40;"
+								data-frame_0="y:bottom;o:1;rZ:269;tp:600;"
+								data-frame_1="rZ:269;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:15;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/2015/12/rocket78.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-13" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:422px;y:60px;"
+								data-text="l:22;"
+								data-dim="w:34.849999999999994;h:34;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:16;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-star1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-14" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:765px;y:445px;"
+								data-text="l:22;"
+								data-dim="w:288;h:122;"
+								data-frame_0="x:right;o:1;tp:600;"
+								data-frame_1="tp:600;e:easeInOutExpo;st:2500;sp:500;"
+								data-frame_999="st:w;sp:500;auto:true;"
+								style="z-index:17;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="crocodile" class="tp-rs-img rs-lazyload" width="288" height="122" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/2014/12/crocodile.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-15" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1px;y:102px;"
+								data-text="l:22;"
+								data-dim="w:565px;h:523px;"
+								data-frame_0="x:left;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1000;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:18;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="2 kids" class="tp-rs-img rs-lazyload" width="635" height="588" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/2014/12/kids.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-7-layer-21" 
+								class="Kiddie-Yellow-Button rev-btn"
+								data-type="button"
+								data-color="rgba(112,72,37,1)"
+								data-rsp_ch="on"
+								data-xy="x:596px;y:448px;"
+								data-text="s:18;l:20;a:center;"
+								data-actions='o:click;a:simplelink;target:_self;url:http://themeforest.net/item/kiddie-kindergarten-wordpress-theme/14552819;'
+								data-padding="t:10;r:20;b:10;l:20;"
+								data-border="bor:5px,5px,5px,5px;"
+								data-frame_0="tp:600;"
+								data-frame_1="tp:600;e:power2.inOut;st:2500;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;"
+								data-frame_hover="c:#ffd823;bgc:#704825;bor:5px,5px,5px,5px;bos:solid;oX:50;oY:50;sp:0;e:power1.in;"
+								style="z-index:19;background-color:rgba(255,216,35,1);font-family:'Open Sans';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;text-align:left;transition:all 0.25s ease !important;type:button;"
+							>Join Kiddie 
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-8" data-title="Slide 2" data-thumb="//www.zoutula.com/themes/kiddie/wp-content/uploads/2014/12/background-2-100x50.jpg" data-anim="adpr:false;">
+							<img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/2014/12/background-2.jpg" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-4-slide-8-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:251px;y:-67px;"
+								data-text="l:22;"
+								data-dim="w:205px;h:205px;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								data-loop_0="y:25;"
+								data-loop_999="y:45;sp:10000;e:easeInOutSine;yym:t;yys:t;yyf:t;"
+								style="z-index:5;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="256" height="256" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-cloud1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-2" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:869px;y:8px;"
+								data-text="l:22;"
+								data-dim="w:114;h:114;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								data-loop_0="y:35;"
+								data-loop_999="sp:20000;e:easeInOutSine;yym:t;yys:t;yyf:t;"
+								style="z-index:6;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="256" height="256" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-cloud1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:588px;y:26px;"
+								data-text="l:22;"
+								data-dim="w:140px;h:140px;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								data-loop_0="y:30;"
+								data-loop_999="y:60;sp:14000;e:easeInOutSine;yym:t;yys:t;yyf:t;"
+								style="z-index:7;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="256" height="256" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-cloud1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-4" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:-22px;y:31px;"
+								data-text="l:22;"
+								data-dim="w:116;h:116;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								data-loop_0="y:30;"
+								data-loop_999="y:60;sp:14000;e:easeInOutSine;yym:t;yys:t;yyf:t;"
+								style="z-index:8;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="256" height="256" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-cloud1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-5" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:-4px;y:149px;"
+								data-text="l:22;"
+								data-dim="w:475;h:397;"
+								data-frame_0="x:left;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1000;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:9;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="little girl" class="tp-rs-img rs-lazyload" width="475" height="397" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/2014/12/little-girl.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:758px;y:147px;"
+								data-text="l:22;"
+								data-dim="h:413;"
+								data-frame_0="x:right;o:1;tp:600;"
+								data-frame_1="rZ:inherit;tp:600;e:easeInOutExpo;st:1000;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:10;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="little boy" class="tp-rs-img rs-lazyload" width="300" height="413" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/2014/12/little-boy.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-7" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:176px;y:103px;"
+								data-text="l:22;"
+								data-dim="w:37px;h:37px;"
+								data-frame_0="y:bottom;o:1;rZ:351;tp:600;"
+								data-frame_1="rZ:351;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:11;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/2015/12/rocket78.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-8" 
+								class="lightgreenopensans"
+								data-type="text"
+								data-color="rgba(147,197,36,1)"
+								data-rsp_ch="on"
+								data-xy="x:278px;y:176px;"
+								data-text="s:48;l:48;fw:300;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;y:50px;o:0;"
+								data-frame_1="tp:600;st:2000;sp:500;"
+								data-frame_1_words="d:10;"
+								data-frame_999="st:w;sp:500;auto:true;"
+								style="z-index:12;font-family:'Open Sans';text-shadow:none;type:text;"
+							>Kiddie Theme 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-9" 
+								class="light-orange-lemon"
+								data-type="text"
+								data-color="rgba(255,216,35,1)"
+								data-rsp_ch="on"
+								data-xy="x:276px;y:234px;"
+								data-text="s:90;l:90;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;o:0;"
+								data-frame_1="tp:600;st:2000;sp:500;"
+								data-frame_1_words="d:10;"
+								data-frame_999="st:w;sp:500;auto:true;"
+								style="z-index:13;font-family:'Salsa';type:text;"
+							>Learning fun 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-10" 
+								class="light-orange-lemon-small"
+								data-type="text"
+								data-color="rgba(255,216,35,1)"
+								data-rsp_ch="on"
+								data-xy="x:281px;y:339px;"
+								data-text="s:50;l:50;"
+								data-frame_0="o:1;tp:600;"
+								data-frame_0_words="d:10;o:0;"
+								data-frame_1="tp:600;st:2000;sp:500;"
+								data-frame_1_words="d:10;"
+								data-frame_999="st:w;sp:500;auto:true;"
+								style="z-index:14;font-family:'Salsa';text-shadow:none;type:text;"
+							>for every child. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-11" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1057px;y:203px;"
+								data-text="l:22;"
+								data-dim="w:25px;h:30px;"
+								data-frame_0="y:bottom;o:1;rZ:277;tp:600;"
+								data-frame_1="rZ:277;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:15;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/2015/12/rocket78.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-13" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:503px;y:46px;"
+								data-text="l:22;"
+								data-dim="w:35.875;h:35;"
+								data-frame_0="y:bottom;o:1;tp:600;"
+								data-frame_1="tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:16;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-star1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-14" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1061px;y:72px;"
+								data-text="l:22;"
+								data-dim="w:34.849999999999994;h:34;"
+								data-frame_0="y:bottom;o:1;rZ:11;tp:600;"
+								data-frame_1="rZ:11;tp:600;e:easeInOutExpo;st:1500;sp:750;"
+								data-frame_999="st:w;sp:250;auto:true;"
+								style="z-index:17;"
+							><img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="64" height="64" data-lazyload="//www.zoutula.com/themes/kiddie/wp-content/uploads/revslider/slide1-star1.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-4-slide-8-layer-17" 
+								class="Kiddie-Yellow-Button rev-btn"
+								data-type="button"
+								data-color="rgba(112,72,37,1)"
+								data-rsp_ch="on"
+								data-xy="x:549px;y:457px;"
+								data-text="s:18;l:20;a:center;"
+								data-actions='o:click;a:simplelink;target:_self;url:http://themeforest.net/item/kiddie-kindergarten-wordpress-theme/14552819;'
+								data-padding="t:10;r:20;b:10;l:20;"
+								data-border="bor:5px,5px,5px,5px;"
+								data-frame_0="tp:600;"
+								data-frame_1="tp:600;e:power2.inOut;st:2000;"
+								data-frame_999="o:0;tp:600;e:nothing;st:w;"
+								data-frame_hover="c:#ffd823;bgc:#704825;bor:5px,5px,5px,5px;bos:solid;oX:50;oY:50;sp:0;e:power1.in;"
+								style="z-index:18;background-color:rgba(255,216,35,1);font-family:'Open Sans';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;text-align:left;transition:all 0.25s ease !important;type:button;"
+							>Join & Play 
+							</rs-layer><!--
+-->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script>
+					setREVStartSize({c: 'rev_slider_4_1',rl:[1240,1024,778,480],el:[],gw:[1050],gh:[600],type:'standard',justify:'',layout:'fullwidth',mh:"600"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider41"]!==undefined) {window.RS_MODULES.modules["revslider41"].once = false;window.revapi4 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+</aside><aside id="kiddie_circles_widget-2" class="widget widget-home widget_kiddie_circles_widget">		<div class="container ztl-widget-circles">
+			<div class="row">
+				<div class="col-xs-12 ztl-widget-title-dark ztl-widget-title clearfix">
+					<h2 class="widget-title">Why Love Us</h2>				</div>
+				<div class="col-sm-3 col-xs-12 item">
+					<div class="ztl-widget-circle" style="background-color:#f25141; color:#f25141;">
+						<img src="wp-content/uploads/2015/12/valentines16.png" alt="Circle Image"/>
+						<div class="ztl-item-circle-edge" style="box-shadow: 0 0 0 4px #f25141;">
+						</div>
+					</div>
+					<div class="ztl-widget-circle-title" style="color:#f25141">
+						Great Teachers					</div>
+					<div class="ztl-widget-circle-description">
+						Da natum timeam ius. Sed mazim essent recusabo ei, eum et senserit reformi. Eos legere aperiri facilisi in.					</div>
+				</div>
+
+				<div class="col-sm-3 col-xs-12 item">
+					<div class="ztl-widget-circle" style="background-color:#ffd823; color:#ffd823;">
+						<img src="wp-content/uploads/2015/12/baby152.png" alt="Circle Image"/>
+						<div class="ztl-item-circle-edge" style="box-shadow: 0 0 0 4px #ffd823;">
+						</div>
+					</div>
+					<div class="ztl-widget-circle-title" style="color:#ffd823">
+						Delicious Meals					</div>
+					<div class="ztl-widget-circle-description">
+						Da natum timeam ius. Sed mazim essent recusabo ei, eum et senserit reformi. Eos legere aperiri facilisi in. 					</div>
+				</div>
+
+				<div class="col-sm-3 col-xs-12 item">
+					<div class="ztl-widget-circle"
+					    style="background-color:#93c524; color:#93c524;">
+						<img src="wp-content/uploads/2015/12/kids2.png" alt="Circle Image"/>
+						<div class="ztl-item-circle-edge" style="box-shadow: 0 0 0 4px #93c524;">
+						</div>
+					</div>
+					<div class="ztl-widget-circle-title" style="color:#93c524">
+						Excellent Programmes					</div>
+					<div class="ztl-widget-circle-description">
+						Da natum timeam ius. Sed mazim essent recusabo ei, eum et senserit reformi. Eos legere aperiri facilisi in.					</div>
+				</div>
+				<div class="col-sm-3 col-xs-12 item">
+					<div class="ztl-widget-circle" style="background-color:#28a8e3; color:#28a8e3;">
+						<img src="wp-content/uploads/2015/12/baby-toy14.png" alt="Circle Image"/>
+						<div class="ztl-item-circle-edge" style="box-shadow: 0 0 0 4px #28a8e3;">
+						</div>
+					</div>
+					<div class="ztl-widget-circle-title" style="color:#28a8e3">
+						Funny Games					</div>
+					<div class="ztl-widget-circle-description">
+						Da natum timeam ius. Sed mazim essent recusabo ei, eum et senserit reformi. Eos legere aperiri facilisi in 					</div>
+				</div>
+			</div>
+		</div>
+		</aside><aside id="kiddie_action_widget-2" class="widget widget-home widget_kiddie_action_widget">        <div class="container ztl-widget-action">
+            <div class="row">
+                <div class="col-xs-12 ztl-action-element">
+                        <span class="ztl-action-content-box">
+                            <span class="ztl-action-title">
+								How to Enroll                            </span>
+                            <span>
+								Your Child to a Class?                            </span>
+
+                        </span>
+                        <span class="ztl-action-button">
+							<a href="https://zoutula.com/themes/kiddie/enrollment/" title="Learn More"
+                               class="ztl-button">
+								Learn More                            </a>
+                        </span>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+        </div>
+		</aside><aside id="kiddie_staff_widget-2" class="widget widget-home widget_kiddie_staff_widget">        <div class="ztl-widget-staff-2 ztl-widget-staff-wrapper">
+            <div class="ztl-widget-staff-parallax ztl-parallax-container"></div>
+            <div class="ztl-staff-upper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 ztl-widget-title-light ztl-widget-title">
+							<h2 class="widget-title">Our Teachers</h2>                        </div>
+                        <div class="col-xs-12 ztl-widget-description ztl-widget-description-light"> An nam erant offendit vulputate. Vim id eros gubergren adipiscing, cu vel impetus pertinax disputando, mei at dicam audiam referrentur. Consul noluisse delectus vis at.</div>
+                        <div class="ztl-staff-delimiter"></div>
+                    </div>
+                </div>
+
+				                <div class="container ztl-widget-staff-container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="ztl-staff-carousel-wrapper" >
+                                <div class="ztl-staff-navigation-left ztl-staff-navigation"></div>
+                                <div class="ztl-staff-navigation-right ztl-staff-navigation"></div>
+                                <div class="ztl-staff-carousel">
+									                                        <!-- the loop -->
+										                                            <div class="item">
+                                                <div class="circle-portrait">
+													<img width="700" height="700" src="wp-content/uploads/2015/01/doris_stuart.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="doris stuart" decoding="async" fetchpriority="high" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/doris_stuart.jpg 700w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/doris_stuart-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/doris_stuart-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/doris_stuart-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/doris_stuart-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/doris_stuart-500x500.jpg 500w" sizes="(max-width: 700px) 100vw, 700px" />                                                     <div class="ztl-circle-staff-contact">
+														<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> 														<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 														<a href="http://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>                                                     </div>
+                                                </div>
+                                                <div class="staff-title"><a href="staff/doris-stuart.html" title="Doris Stuart" style="color: #704825;">Doris Stuart</a></div>
+                                                <div class="staff-position" style="color: #93c524;">Spanish Teacher</div>
+                                            </div>
+										                                            <div class="item">
+                                                <div class="circle-portrait">
+													<img width="700" height="700" src="wp-content/uploads/2015/02/suzanne_morgan.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="suzanne morgan" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/suzanne_morgan.jpg 700w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/suzanne_morgan-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/suzanne_morgan-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/suzanne_morgan-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/suzanne_morgan-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/suzanne_morgan-500x500.jpg 500w" sizes="(max-width: 700px) 100vw, 700px" />                                                     <div class="ztl-circle-staff-contact">
+														<a href="https://facebook.com/zoutula" target="_blank"><i class="fa fa-facebook"></i></a> 														<a href="https://twitter.com/zoutula" target="_blank"><i class="fa fa-twitter"></i></a> 														<a href="http://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>                                                     </div>
+                                                </div>
+                                                <div class="staff-title"><a href="staff/suzanne-barr.html" title="Suzanne Barr" style="color: #704825;">Suzanne Barr</a></div>
+                                                <div class="staff-position" style="color: #93c524;">Drama Teacher</div>
+                                            </div>
+										                                            <div class="item">
+                                                <div class="circle-portrait">
+													<img width="700" height="700" src="wp-content/uploads/2015/01/olivia_mitchel.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="olivia mitchel" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/olivia_mitchel.jpg 700w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/olivia_mitchel-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/olivia_mitchel-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/olivia_mitchel-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/olivia_mitchel-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/olivia_mitchel-500x500.jpg 500w" sizes="(max-width: 700px) 100vw, 700px" />                                                     <div class="ztl-circle-staff-contact">
+														<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> 														<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 														<a href="http://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>                                                     </div>
+                                                </div>
+                                                <div class="staff-title"><a href="staff/olivia-mitchell.html" title="Olivia Mitchell" style="color: #704825;">Olivia Mitchell</a></div>
+                                                <div class="staff-position" style="color: #93c524;">Art Teacher</div>
+                                            </div>
+										                                            <div class="item">
+                                                <div class="circle-portrait">
+													<img width="700" height="700" src="wp-content/uploads/2015/01/fred_lambert.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="fred lambert" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/fred_lambert.jpg 700w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/fred_lambert-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/fred_lambert-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/fred_lambert-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/fred_lambert-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/fred_lambert-500x500.jpg 500w" sizes="(max-width: 700px) 100vw, 700px" />                                                     <div class="ztl-circle-staff-contact">
+														<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> 														<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 														<a href="http://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>                                                     </div>
+                                                </div>
+                                                <div class="staff-title"><a href="staff/fred-lambert.html" title="Fred Lambert" style="color: #704825;">Fred Lambert</a></div>
+                                                <div class="staff-position" style="color: #93c524;">Math Coach</div>
+                                            </div>
+										                                            <div class="item">
+                                                <div class="circle-portrait">
+													<img width="700" height="700" src="wp-content/uploads/2015/01/eliza_gordon.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="eliza gordon" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/eliza_gordon.jpg 700w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/eliza_gordon-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/eliza_gordon-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/eliza_gordon-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/eliza_gordon-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/eliza_gordon-500x500.jpg 500w" sizes="(max-width: 700px) 100vw, 700px" />                                                     <div class="ztl-circle-staff-contact">
+														<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> 														<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 														<a href="http://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>                                                     </div>
+                                                </div>
+                                                <div class="staff-title"><a href="staff/eliza-gordon.html" title="Eliza Gordon" style="color: #704825;">Eliza Gordon</a></div>
+                                                <div class="staff-position" style="color: #93c524;">Reading Specialist</div>
+                                            </div>
+										                                            <div class="item">
+                                                <div class="circle-portrait">
+													<img width="700" height="700" src="wp-content/uploads/2015/01/miranda_stipler.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="miranda stipler" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/miranda_stipler.jpg 700w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/miranda_stipler-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/miranda_stipler-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/miranda_stipler-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/miranda_stipler-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/miranda_stipler-500x500.jpg 500w" sizes="(max-width: 700px) 100vw, 700px" />                                                     <div class="ztl-circle-staff-contact">
+														<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> 														<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 														<a href="http://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>                                                     </div>
+                                                </div>
+                                                <div class="staff-title"><a href="staff/miranda-stipler.html" title="Miranda Stipler" style="color: #704825;">Miranda Stipler</a></div>
+                                                <div class="staff-position" style="color: #93c524;">Resource Teacher</div>
+                                            </div>
+										                                            <div class="item">
+                                                <div class="circle-portrait">
+													<img width="700" height="700" src="wp-content/uploads/2015/01/amanda_stone.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="amanda stone" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/amanda_stone.jpg 700w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/amanda_stone-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/amanda_stone-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/amanda_stone-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/amanda_stone-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/01/amanda_stone-500x500.jpg 500w" sizes="(max-width: 700px) 100vw, 700px" />                                                     <div class="ztl-circle-staff-contact">
+														<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> 														<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 														<a href="http://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>                                                     </div>
+                                                </div>
+                                                <div class="staff-title"><a href="staff/amanda-stone.html" title="Amanda Stone" style="color: #704825;">Amanda Stone</a></div>
+                                                <div class="staff-position" style="color: #93c524;">Psychologist</div>
+                                            </div>
+										                                            <div class="item">
+                                                <div class="circle-portrait">
+													<img width="700" height="700" src="wp-content/uploads/2015/02/robin_leroy.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="robin leroy" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/robin_leroy.jpg 700w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/robin_leroy-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/robin_leroy-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/robin_leroy-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/robin_leroy-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/robin_leroy-500x500.jpg 500w" sizes="(max-width: 700px) 100vw, 700px" />                                                     <div class="ztl-circle-staff-contact">
+														<a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> 														<a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 														<a href="http://google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>                                                     </div>
+                                                </div>
+                                                <div class="staff-title"><a href="staff/robin-leroy.html" title="Robin Leroy" style="color: #704825;">Robin Leroy</a></div>
+                                                <div class="staff-position" style="color: #93c524;">English Teacher</div>
+                                            </div>
+										                                        <!-- end of the loop -->
+																			                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ztl-staff-lower"></div>
+
+        </div>
+
+        <script type="text/javascript">
+            (function($) {
+                'use strict';
+
+                function addParallax(element){
+                    if(  !kiddieIsMobile.any() ) {
+                        $(element).parallax("50%", "0.5");
+                    }
+                }
+
+                $(document).ready(function(){
+                    //owl carousel defaults
+                    var breakpoints;
+
+                    var steps_no = 8;
+                    var carousel_loop = false;
+                    // set responsive behavior
+
+                    switch(steps_no){
+                        case 3:
+                            breakpoints = { 0:{ items:1 }, 480:{ items:2 }, 768:{ items:3 } };
+                            break;
+                        case 2:
+                            breakpoints = { 0:{ items:1 }, 480:{ items:2 } };
+                            break;
+                        case 1:
+                            breakpoints = { 0:{ items:1 } };
+                            break;
+                        default:
+                            breakpoints = { 0:{ items:1 }, 480:{ items:2 }, 768:{ items:3 }, 1000:{ items:4 } }
+                    }
+
+                    $(".ztl-widget-staff-2 .ztl-staff-carousel").owlCarousel({
+                        autoPlay: 3000, //Set AutoPlay to 3 seconds
+                        loop:carousel_loop,
+						                        responsive:breakpoints,
+                        stopOnHover : true,
+                        lazyLoad : true
+                    });
+
+                    var owl = $(".ztl-widget-staff-2 .ztl-staff-carousel");
+
+                    $(".ztl-widget-staff-2 .ztl-staff-navigation-right").on('click', function(){
+                        owl.trigger('next.owl.carousel');
+                    });
+
+                    $(".ztl-widget-staff-2 .ztl-staff-navigation-left").on('click', function(){
+                        owl.trigger('prev.owl.carousel');
+                    });
+
+                    $(window).resize(function(){
+                        addParallax('.ztl-widget-staff-parallax');
+                    });
+
+                });
+
+                window.onload = function(){
+                    $(window).trigger('resize');
+
+                }
+
+
+            }(jQuery));
+        </script>
+
+		</aside><aside id="kiddie_courses_widget-2" class="widget widget-home widget_kiddie_courses_widget">		<div class="container ztl-courses-wrapper ztl-widget-courses-2">
+	     	<div class="row">
+	     		<div class="col-xs-12 ztl-widget-title ztl-widget-title-dark">
+	     			<h2 class="widget-title">Our Popular Courses</h2>
+	     		</div>
+	     		<div class="col-xs-12 ztl-widget-description ztl-widget-description-dark">Adipiscing signiferumque vix et. No alii docendi usu, pri graeco possim percipit ne. Affert nostro volumus id pri. Has purto mutat equidem ad. Istarum impulsu moralis videmus gi da. </div>
+
+	     		<div class="col-sm-4 col-xs-12">
+	     			<div class="item item-course-1" style="background-color:#f25141;">
+	     				<div class="item-circle-top" style="background-color:#ff614f;">
+	     					<img src="wp-content/uploads/2015/12/baby-clothing2.png" alt="Course"/>
+	     				</div>
+	     				<div class="item-course-title">Baby Kiddie</div>
+	     				<div class="item-course-sub-title">Age 1 to 2</div>
+	     				<div class="item-course-description">Da natum timeam ius. Sed mazim essent sim recusabo eim, eum et senserit reformi. Eos legere aperiri facilisi in.</div>
+	     				<div class="item-footer-content">
+	     				    <img class="item-footer-phantom" src="wp-content/uploads/2015/12/baby-clothing2.png" alt="Course"/>
+	     					<div class="item-get-in-touch">
+	     						<a href="#" title="More">
+	     							More	     						</a>
+	     					</div>
+	     				</div>
+	     			</div>
+	     		</div>
+
+	     		<div class="col-sm-4 col-xs-12">
+	     			<div class="item item-course-2" style="background-color:#93c524;">
+	     				<div class="item-circle-top" style="background-color:#a4d638;">
+	     					<img src="wp-content/uploads/2015/12/toy56-1.png" alt="Course"/>
+	     				</div>
+	     				<div class="item-course-title">Mini Kiddie</div>
+	     				<div class="item-course-sub-title">Age 2 to 4</div>
+	     				<div class="item-course-description">Da natum timeam ius. Sed mazim essent sim recusabo eim, eum et senserit reformi. Eos legere aperiri facilisi in.</div>
+	     				<div class="item-footer-content">
+	     				    <img class="item-footer-phantom" src="wp-content/uploads/2015/12/toy56-1.png" alt="Course"/>
+	     					<div class="item-get-in-touch">
+	     						<a href="#" title="More">
+	     							More	     						</a>
+	     					</div>
+	     				</div>
+	     			</div>
+	     		</div>
+
+	     		<div class="col-sm-4 col-xs-12">
+	     			<div class="item item-course-3" style="background-color:#28a8e3;">
+	     				<div class="item-circle-top" style="background-color:#42b7f3;">
+	     					<img src="wp-content/uploads/2015/12/teddy-bear1.png" alt="Course"/>
+	     				</div>
+	     				<div class="item-course-title">Super Kiddie</div>
+	     				<div class="item-course-sub-title">Age 4 to 6</div>
+	     				<div class="item-course-description">Da natum timeam ius. Sed mazim essent sim recusabo eim, eum et senserit reformi. Eos legere aperiri facilisi in.</div>
+	     				<div class="item-footer-content">
+	     				    <img class="item-footer-phantom" src="wp-content/uploads/2015/12/teddy-bear1.png" alt="Course"/>
+	     					<div class="item-get-in-touch">
+	     						<a href="#" title="More ">
+	     							More 	     						</a>
+	     					</div>
+	     				</div>
+	     			</div>
+	     		</div>
+
+	     	</div>
+	    </div>
+
+		</aside><aside id="kiddie_testimonials_widget-2" class="widget widget-home widget_kiddie_testimonials_widget">		
+		<div class="ztl-widget-testimonials-container ztl-widget-testimonials-2">
+			<div class="ztl-widget-testimonials-parallax ztl-parallax-container"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="ztl-testimonials-carousel" style="width:1px; min-width:100%;">
+															<!-- the loop -->
+																	<div class="item">
+										<div class="testimonial-content"><p>My daughter comes home with beautiful artwork and new songs after every class. She always has a good time. I would recommend Kiddie to anyone with young children. I think it&#8217;s the best preschool in the area.</p>
+</div>
+										<div class="clearfix"></div>
+										<div class="delimiter"></div>
+										<div class="author">
+											<strong> Kate Clegg </strong> 											 (mom of Olivia), 										 	 15 feb 2015										 </div>
+									</div>
+																	<div class="item">
+										<div class="testimonial-content"><p>We&#8217;re so thrilled to have found Kiddie for our daughter. Not only is it an incredibly supportive environment for working parents, with flexible daycare options, but the teachers are also so caring and patient with the children. We are happy with Kiddie.</p>
+</div>
+										<div class="clearfix"></div>
+										<div class="delimiter"></div>
+										<div class="author">
+											<strong> Karin and Albert Bennett </strong> 											 (parents of Maya), 										 	 1 feb 2015										 </div>
+									</div>
+																	<div class="item">
+										<div class="testimonial-content"><p>One of the best decisions we ever made as parents was sending our daughter, Roberta to Kiddie. Your wonderful teachers, your happy environment and fabulous phonics program are the core ingredients, which make it such a top kindergarten.</p>
+</div>
+										<div class="clearfix"></div>
+										<div class="delimiter"></div>
+										<div class="author">
+											<strong> Emily Noble </strong> 											 (mom of Roberta), 										 	 2 feb 2015										 </div>
+									</div>
+																							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript">
+			(function($){
+				'use strict';
+
+				function addParallax(element){
+					if(  !kiddieIsMobile.any() ) {
+						$(element).parallax("50%", "0.5");
+					}
+				}
+
+				$(document).ready(function(){
+					//owl carousel
+					$(".ztl-widget-testimonials-2 .ztl-testimonials-carousel").owlCarousel({
+						items:1,
+												loop:true,
+					});
+
+					$(window).resize(function(){
+						addParallax('.ztl-widget-testimonials-parallax');
+					});
+				});
+
+				window.onload = function(){
+					$(window).trigger('resize');
+
+				}
+
+			}(jQuery));
+		</script>
+
+		</aside><aside id="kiddie_gallery_widget-2" class="widget widget-home widget_kiddie_gallery_widget">		<div class="ztl-widget-gallery-container ztl-widget-gallery-2">
+            <div class="container">
+                <div class="row">
+					<div class="col-xs-12 ztl-widget-title-dark ztl-widget-title clearfix">
+						<h2 class="widget-title">Our Gallery</h2>					</div>
+					<div class="col-xs-12 ztl-widget-description ztl-widget-description-dark">Saperet scriptorem at duo. Erat maiorum quo ut. Te est sint pertinacia. Nec ceteros corpora no, mundi blandit ullamcorper ex pri. Aperiam abhorreant mei te, has dicta fierent eu.</div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="container">
+				<div class="item-isotope col-sm-3"><a class="grouped_elements" href="wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s.jpg" data-rel="prettyPhoto[2]"><div class="item-isotope-cover"></div><span class="icon-gallery"><span class="flaticon-picture31"></span></span><img width="600" height="450" src="wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-600x450.jpg" class="attachment-kiddie-4-3 size-kiddie-4-3" alt="" decoding="async" /></a></div><div class="item-isotope col-sm-3"><a class="grouped_elements" href="wp-content/uploads/2015/02/photodune-5046927-cute-girl-writing-on-board-in-kindergarten-s.jpg" data-rel="prettyPhoto[2]"><div class="item-isotope-cover"></div><span class="icon-gallery"><span class="flaticon-picture31"></span></span><img width="600" height="450" src="wp-content/uploads/2015/02/photodune-5046927-cute-girl-writing-on-board-in-kindergarten-s-600x450.jpg" class="attachment-kiddie-4-3 size-kiddie-4-3" alt="" decoding="async" /></a></div><div class="item-isotope col-sm-3"><a class="grouped_elements" href="wp-content/uploads/2015/02/photodune-7522063-cute-children-study-at-daycare-s.jpg" data-rel="prettyPhoto[2]"><div class="item-isotope-cover"></div><span class="icon-gallery"><span class="flaticon-picture31"></span></span><img width="600" height="450" src="wp-content/uploads/2015/02/photodune-7522063-cute-children-study-at-daycare-s-600x450.jpg" class="attachment-kiddie-4-3 size-kiddie-4-3" alt="" decoding="async" /></a></div><div class="item-isotope col-sm-3"><a class="grouped_elements" href="wp-content/uploads/2015/02/photodune-7486801-children-resting-s.jpg" data-rel="prettyPhoto[2]"><div class="item-isotope-cover"></div><span class="icon-gallery"><span class="flaticon-picture31"></span></span><img width="600" height="450" src="wp-content/uploads/2015/02/photodune-7486801-children-resting-s-600x450.jpg" class="attachment-kiddie-4-3 size-kiddie-4-3" alt="" decoding="async" /></a></div><div class="item-isotope col-sm-3"><a class="grouped_elements" href="wp-content/uploads/2015/02/photodune-313922-kindergarten-teacher-helping-student-with-reading-skills-s.jpg" data-rel="prettyPhoto[2]"><div class="item-isotope-cover"></div><span class="icon-gallery"><span class="flaticon-picture31"></span></span><img width="600" height="450" src="wp-content/uploads/2015/02/photodune-313922-kindergarten-teacher-helping-student-with-reading-skills-s-600x450.jpg" class="attachment-kiddie-4-3 size-kiddie-4-3" alt="" decoding="async" /></a></div><div class="item-isotope col-sm-3"><a class="grouped_elements" href="wp-content/uploads/2015/02/photodune-4902000-cute-little-children-lying-on-floor-s.jpg" data-rel="prettyPhoto[2]"><div class="item-isotope-cover"></div><span class="icon-gallery"><span class="flaticon-picture31"></span></span><img width="600" height="450" src="wp-content/uploads/2015/02/photodune-4902000-cute-little-children-lying-on-floor-s-600x450.jpg" class="attachment-kiddie-4-3 size-kiddie-4-3" alt="" decoding="async" /></a></div><div class="item-isotope col-sm-3"><a class="grouped_elements" href="wp-content/uploads/2015/02/photodune-895982-little-girl-and-mom-playing-in-a-children-puzzle-s.jpg" data-rel="prettyPhoto[2]"><div class="item-isotope-cover"></div><span class="icon-gallery"><span class="flaticon-picture31"></span></span><img width="600" height="450" src="wp-content/uploads/2015/02/photodune-895982-little-girl-and-mom-playing-in-a-children-puzzle-s-600x450.jpg" class="attachment-kiddie-4-3 size-kiddie-4-3" alt="" decoding="async" /></a></div><div class="item-isotope col-sm-3"><a class="grouped_elements" href="wp-content/uploads/2015/08/2.jpg" data-rel="prettyPhoto[2]"><div class="item-isotope-cover"></div><span class="icon-gallery"><span class="flaticon-picture31"></span></span><img width="600" height="450" src="wp-content/uploads/2015/08/2-600x450.jpg" class="attachment-kiddie-4-3 size-kiddie-4-3" alt="" decoding="async" /></a></div>            </div>          
+        </div>
+		</aside><aside id="kiddie_action_widget-3" class="widget widget-home widget_kiddie_action_widget">        <div class="container ztl-widget-action">
+            <div class="row">
+                <div class="col-xs-12 ztl-action-element">
+                        <span class="ztl-action-content-box">
+                            <span class="ztl-action-title">
+								See Our Kindergarten                             </span>
+                            <span>
+								Photo Gallery!                            </span>
+
+                        </span>
+                        <span class="ztl-action-button">
+							<a href="https://zoutula.com/themes/kiddie/iii-columns-gallery/" title="View Now"
+                               class="ztl-button">
+								View Now                            </a>
+                        </span>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+        </div>
+		</aside><aside id="kiddie_numbers_widget-2" class="widget widget-home widget_kiddie_numbers_widget">		<div class="ztl-widget-numbers ztl-widget-numbers-2" id="ztl-widget-numbers-id-2" data-count_up="0">
+			<div class="ztl-widget-numbers-parallax ztl-parallax-container" style="background-image:url('wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m.jpg')"></div>
+			<div class="overlay"></div>
+			<div class="container">
+		      	<div class="row">
+			      	<div class="col-xs-12 ztl-widget-title-light ztl-widget-title clearfix">
+				        <h2 class="widget-title">Kiddie Numbers</h2>			        </div>
+		      	    <div class="col-sm-3 col-xs-12 item">
+		      	    	<div class="ztl-widget-number" id="item-number-21" data-value_no="126">
+		      	    		0
+		      	    	</div>
+		      	    	<div class="ztl-widget-number-title">
+		      	    		Fun Activities		      	    	</div>
+		   
+		      	    </div>
+			        <div class="col-sm-3 col-xs-12 item">
+			        	<div class="ztl-widget-number" id="item-number-22" data-value_no="564">
+			        		0
+			        	</div>
+			        	<div class="ztl-widget-number-title">
+		      	    		Happy Kiddies		      	    	</div>
+
+			        </div>
+
+			        <div class="col-sm-3 col-xs-12 item">
+			        	<div class="ztl-widget-number" id="item-number-23" data-value_no="876">
+			        		0						
+			        	</div>
+			        	<div class="ztl-widget-number-title">
+		      	    		Thankful Testimonials		      	    	</div>
+	
+			        </div>
+			        <div class="col-sm-3 col-xs-12 item">
+			        	<div class="ztl-widget-number" id="item-number-24" data-value_no="334">
+			        		0
+			        	</div>
+			        	<div class="ztl-widget-number-title">
+		      	    		Loving Teachers		      	    	</div>
+
+			        </div>
+		        </div>
+	      </div>
+	    </div>
+
+	    <script type="text/javascript">
+			(function($){
+				'use strict';
+
+				function addParallax(element){
+				    if(  !kiddieIsMobile.any() ) {
+                         $(element).parallax("50%", "0.5");
+					}
+				}
+
+				$(document).ready(function(){
+
+					$(window).resize(function(){
+						addParallax('.ztl-widget-numbers-parallax');
+					});							 				 	 
+				});
+
+				window.onload = function(){
+					$(window).trigger('resize');		
+    				
+				}
+
+			}(jQuery));
+		</script>
+
+	    </aside><aside id="kiddie_category_listing_widget-2" class="widget widget-home widget_kiddie_category_listing_widget">
+		<div class="ztl-widget-category-container ztl-widget-category-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 ztl-widget-title-dark ztl-widget-title clearfix">
+						<h2 class="widget-title">Our Blog</h2>					</div>
+	     		</div>
+	     	</div>
+			<div class="container">
+				<div class="row">
+											<!-- the loop -->
+													<div class="item col-sm-4">
+								<div class="date">
+									<span class="entry-date">
+										<a href="blog/new-friends-everyday-at-kiddie-kindergarten.html" title="New Friends Everyday at Kiddie">
+											January 14, 2020										</a>
+									</span>
+								</div>
+								<div class="image">
+									<a href="blog/new-friends-everyday-at-kiddie-kindergarten.html" title="New Friends Everyday at Kiddie">
+										<img width="600" height="600" src="wp-content/uploads/2015/02/photodune-7486801-children-resting-s-600x600.jpg" class="attachment-kiddie-square-big size-kiddie-square-big wp-post-image" alt="" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-7486801-children-resting-s-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-7486801-children-resting-s-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-7486801-children-resting-s-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-7486801-children-resting-s-150x150.jpg 150w" sizes="(max-width: 600px) 100vw, 600px" />									</a>
+									<div class="comments-no">
+										<i style="color:#93c524;" class="flaticon-black400"></i>
+										<span>0</span>
+									</div>
+								</div>
+								<div class="title">
+									<a style="color:#704825;" href="blog/new-friends-everyday-at-kiddie-kindergarten.html" title="New Friends Everyday at Kiddie">
+										New Friends Everyday at Kiddie									</a>
+								</div>
+								<div class="content">
+									Sea et quem cibo legere, sea an animal electram. No mea sale vivendum complectitur. An his reque appellantur, quot doming <a class="read-more" href="blog/new-friends-everyday-at-kiddie-kindergarten.html"> [&hellip;]</a>								</div>
+								<div class="author">
+									<i class="flaticon-avatar26"></i> <a href="author/admin.html" title="Posts by John Doe" rel="author">John Doe</a>								</div>
+								<div class="category">
+																		<i class="flaticon-squares36"></i>
+									<a href="category/blog/fun.html" title="View all posts filed under Fun">Fun</a>, <a href="category/blog/games.html" title="View all posts filed under Games">Games</a>								</div>
+
+								<div class="clear"></div>
+							</div>
+							
+													<div class="item col-sm-4">
+								<div class="date">
+									<span class="entry-date">
+										<a href="blog/swimming-lessons-at-the-new-pool.html" title="Swimming Lessons at the New Pool">
+											January 13, 2020										</a>
+									</span>
+								</div>
+								<div class="image">
+									<a href="blog/swimming-lessons-at-the-new-pool.html" title="Swimming Lessons at the New Pool">
+										<img width="600" height="600" src="wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-600x600.jpg" class="attachment-kiddie-square-big size-kiddie-square-big wp-post-image" alt="" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-150x150.jpg 150w" sizes="(max-width: 600px) 100vw, 600px" />									</a>
+									<div class="comments-no">
+										<i style="color:#93c524;" class="flaticon-black400"></i>
+										<span>0</span>
+									</div>
+								</div>
+								<div class="title">
+									<a style="color:#704825;" href="blog/swimming-lessons-at-the-new-pool.html" title="Swimming Lessons at the New Pool">
+										Swimming Lessons at the New Pool									</a>
+								</div>
+								<div class="content">
+									Sea et quem cibo legere, sea an animal electram. No mea sale vivendum complectitur. An his reque appellantur, quot doming <a class="read-more" href="blog/swimming-lessons-at-the-new-pool.html"> [&hellip;]</a>								</div>
+								<div class="author">
+									<i class="flaticon-avatar26"></i> <a href="author/admin.html" title="Posts by John Doe" rel="author">John Doe</a>								</div>
+								<div class="category">
+																		<i class="flaticon-squares36"></i>
+									<a href="category/blog/events.html" title="View all posts filed under Events">Events</a>								</div>
+
+								<div class="clear"></div>
+							</div>
+							
+													<div class="item col-sm-4">
+								<div class="date">
+									<span class="entry-date">
+										<a href="blog/play-is-our-brains-favorite-way-of-learning.html" title="Play is Our Brain&#8217;s Favorite Way of Learning">
+											January 12, 2020										</a>
+									</span>
+								</div>
+								<div class="image">
+									<a href="blog/play-is-our-brains-favorite-way-of-learning.html" title="Play is Our Brain&#8217;s Favorite Way of Learning">
+										<img width="600" height="600" src="wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-600x600.jpg" class="attachment-kiddie-square-big size-kiddie-square-big wp-post-image" alt="" decoding="async" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-600x600.jpg 600w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-150x150.jpg 150w" sizes="(max-width: 600px) 100vw, 600px" />									</a>
+									<div class="comments-no">
+										<i style="color:#93c524;" class="flaticon-black400"></i>
+										<span>0</span>
+									</div>
+								</div>
+								<div class="title">
+									<a style="color:#704825;" href="blog/play-is-our-brains-favorite-way-of-learning.html" title="Play is Our Brain&#8217;s Favorite Way of Learning">
+										Play is Our Brain&#8217;s Favorite Way of Learning									</a>
+								</div>
+								<div class="content">
+									Sea et quem cibo legere, sea an animal electram. No mea sale vivendum complectitur. An his reque appellantur, quot doming <a class="read-more" href="blog/play-is-our-brains-favorite-way-of-learning.html"> [&hellip;]</a>								</div>
+								<div class="author">
+									<i class="flaticon-avatar26"></i> <a href="author/admin.html" title="Posts by John Doe" rel="author">John Doe</a>								</div>
+								<div class="category">
+																		<i class="flaticon-squares36"></i>
+									<a href="category/blog/games.html" title="View all posts filed under Games">Games</a>								</div>
+
+								<div class="clear"></div>
+							</div>
+															<div class="clearfix visible-md visible-lg"></div>
+							
+																					</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 clearfix ztl-widget-category-button">
+							<a class="ztl-button" title="Go to Blog" href="#">Go to Blog</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		</aside><aside id="kiddie_contact_widget-2" class="widget widget-home widget_kiddie_contact_widget">
+
+		<div class="ztl-widget-contact-2 ztl-widget-contact-container">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 col-xs-12">
+						<div class="title">Quick Contact</div>
+						<div class="clear20"></div>
+						
+<div class="wpcf7 no-js" id="wpcf7-f3273-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="https://www.zoutula.com/themes/kiddie/#wpcf7-f3273-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="3273" />
+<input type="hidden" name="_wpcf7_version" value="5.7.6" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3273-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<p><span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" value="" type="text" name="your-name" /></span>
+</p>
+<p><span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" value="" type="email" name="your-email" /></span>
+</p>
+<p><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message" name="your-message"></textarea></span>
+</p>
+<p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="Send" />
+</p><p style="display: none !important;"><label>&#916;<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="40"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+						<div class="clear"></div>
+					</div>
+					<div class="col-sm-8 col-xs-12">
+						<div class="address"><span class="flaticon-shapes"></span> 12-14 Greenwich Road SE10 8JA London</div>
+						<div class="clear20"></div>
+						<div id="map-canvas-2" class="ztl-map"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	    <script type="text/javascript">
+			(function($){
+				'use strict';
+				var map;
+				var mapId = 'kiddie_style';
+				
+				function initialize() {
+
+					var featureOpts = [
+					   {
+					      "featureType":"landscape.man_made",
+					      "elementType":"geometry",
+					      "stylers":[
+					         {
+					            "visibility":"on"
+					         },
+					         {
+					            "color":"#b8d478"
+					         }
+					      ]
+					   },
+					   {
+					   	"featureType": "poi",
+					   	"elementType": "labels",
+					   	"stylers": [
+						   	{
+						   		"visibility": "off"
+						   	}
+					   	]
+					   },
+					];
+									
+					var mapOptions = {
+						zoom: 16,
+						center: new google.maps.LatLng(51.497360, -0.163348),
+						mapTypeId: mapId,
+						scaleControl: true,
+						streetViewControl: false,
+						mapTypeControl: false,
+						panControl: false,
+						zoomControl: true,
+						scrollwheel: false,
+						draggable:false,
+					};
+					map = new google.maps.Map(document.getElementById('map-canvas-2'), mapOptions);
+					
+					var customMapType = new google.maps.StyledMapType(featureOpts);
+
+					map.mapTypes.set(mapId, customMapType);
+
+					var mapImage =  "wp-content/uploads/2015/07/pin.png";
+					
+					//add custom marker
+					var marker = new google.maps.Marker({
+					  position: map.getCenter(),
+					  map: map,
+					  icon: mapImage
+					});
+					
+					google.maps.event.addDomListener(window, 'resize', function() {
+						map.setCenter(mapOptions.center);
+					});
+
+					map.addListener('bounds_changed', function() {
+                        map.setCenter(mapOptions.center);
+                    });
+					
+				}	
+				
+				$( window ).load(function() {
+				  initialize();
+				});
+
+				
+			}(jQuery));
+		</script>
+
+		</aside>				
+	</div><!-- #primary -->
+		<div class="ztl-sidebar-area">		
+											
+											
+											
+												</div>
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer">
+				<div class="sidebar-footer">
+			<div class="container">
+				<div class="row">
+						<aside id="text-3" class="widget col-sm-4 widget_text"><h2 class="widget-title">About Us</h2>			<div class="textwidget">Unum qualisque quo in, per probo definitiones no. His suas rebum menandri in, debet voluptatum mel ne. At suas similique definitiones est, vim ea tempor perpetua. Sale eripuit ponderum ne his, ad duis reque prodesset vis. His suas rebum menandri in, debet voluptatum mel ne.
+
+<img src="wp-content/uploads/2015/12/logo_white.png" style="max-width:100px; display:block; margin-top:2.5rem;" alt="Kiddie"/> </div>
+		</aside><aside id="kiddie_recent_posts_widget-2" class="widget col-sm-4 widget_kiddie_recent_posts_widget">		<div class="ztl-widget-recent-posts-container ztl-widget-recent-posts-2">
+
+			<h2 class="widget-title">Recent Posts</h2>
+			<div class="ztl-widget-recent-posts">
+				<ul class="recent-posts ztl-list-reset">
+											<!-- the loop -->
+													<li class="item-post clearfix">
+								<a href="blog/new-friends-everyday-at-kiddie-kindergarten.html" title="New Friends Everyday at Kiddie">
+									<img width="300" height="300" src="wp-content/uploads/2015/02/photodune-7486801-children-resting-s-300x300.jpg" class="attachment-kiddie-square-thumb size-kiddie-square-thumb wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-7486801-children-resting-s-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-7486801-children-resting-s-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-7486801-children-resting-s-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-7486801-children-resting-s-600x600.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" />
+								</a>
+								<h6>
+									<a href="blog/new-friends-everyday-at-kiddie-kindergarten.html" title="New Friends Everyday at Kiddie">
+										New Friends Everyday at Kiddie									</a>
+								</h6>
+								<span class="ztl-recent-post-date">
+									<i class="flaticon-calendar64"></i>
+									<a href="blog/new-friends-everyday-at-kiddie-kindergarten.html" title="New Friends Everyday at Kiddie">
+										Jan 14, 2020									</a>
+								</span>
+							</li>
+
+													<li class="item-post clearfix">
+								<a href="blog/swimming-lessons-at-the-new-pool.html" title="Swimming Lessons at the New Pool">
+									<img width="300" height="300" src="wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-300x300.jpg" class="attachment-kiddie-square-thumb size-kiddie-square-thumb wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4553760-siblings-on-beach-m-600x600.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" />
+								</a>
+								<h6>
+									<a href="blog/swimming-lessons-at-the-new-pool.html" title="Swimming Lessons at the New Pool">
+										Swimming Lessons at the New Pool									</a>
+								</h6>
+								<span class="ztl-recent-post-date">
+									<i class="flaticon-calendar64"></i>
+									<a href="blog/swimming-lessons-at-the-new-pool.html" title="Swimming Lessons at the New Pool">
+										Jan 13, 2020									</a>
+								</span>
+							</li>
+
+													<li class="item-post clearfix">
+								<a href="blog/play-is-our-brains-favorite-way-of-learning.html" title="Play is Our Brain&#8217;s Favorite Way of Learning">
+									<img width="300" height="300" src="wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-300x300.jpg" class="attachment-kiddie-square-thumb size-kiddie-square-thumb wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-300x300.jpg 300w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-100x100.jpg 100w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-150x150.jpg 150w, https://www.zoutula.com/themes/kiddie/wp-content/uploads/2015/02/photodune-4902026-group-of-cute-little-prescool-kids-drawing-s-600x600.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" />
+								</a>
+								<h6>
+									<a href="blog/play-is-our-brains-favorite-way-of-learning.html" title="Play is Our Brain&#8217;s Favorite Way of Learning">
+										Play is Our Brain&#8217;s Favorite Way of Learning									</a>
+								</h6>
+								<span class="ztl-recent-post-date">
+									<i class="flaticon-calendar64"></i>
+									<a href="blog/play-is-our-brains-favorite-way-of-learning.html" title="Play is Our Brain&#8217;s Favorite Way of Learning">
+										Jan 12, 2020									</a>
+								</span>
+							</li>
+
+																					</ul>
+			</div>	
+			
+		</div>
+		</aside><aside id="text-4" class="widget col-sm-4 widget_text"><h2 class="widget-title">Our Features</h2>			<div class="textwidget"> At suas similique definitiones est, vim ea tempor perpetua. Sale eripuit ponderum ne his, ad duis reque prodesset vis.
+<br /><br />
+<ul>
+<li>Friendly clean design</li>
+<li>20+ predefined pages</li>
+<li>Ultra responsive design</li>
+<li>Pleasant colors</li>
+<li>Childish icons</li>
+<li>Premium plugins</li>
+<li>Kindly support</li>
+</ul>
+</div>
+		</aside>				</div>
+			</div>
+		</div>
+		
+		<div class="site-info">			
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xs-12">
+												<div id="ztl-copyright">
+						© 2022 <a href="#">Kiddie</a> Theme crafted with <i style="color:#f25141" class="fa fa-heart"></i> in Bucharest 						</div>
+					</div>
+					<div class="col-sm-6 col-xs-12">
+													<ul id="ztl-social">
+																	<li> <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+																									<li> <a href="#" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+																									<li> <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+																									<li> <a href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+																									<li> <a href="#" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+															</ul>
+											</div>
+				</div>
+			</div>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = false;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300%2C400%7CSalsa:400&amp;display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script>
+		if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
+</script>
+			<link rel="preload" as="font" id="rs-icon-set-revicon-woff" href="wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff?5510888" type="font/woff" crossorigin="anonymous" media="all" />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='wp-content/plugins/revslider/public/assets/css/rs60660.css?ver=6.6.5' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+		#rev_slider_4_1_wrapper .custom.tparrows{cursor:pointer;background:#000;background:rgba(0,0,0,0.5);width:40px;height:40px;position:absolute;display:block;z-index:1000}#rev_slider_4_1_wrapper .custom.tparrows.rs-touchhover{background:#000}#rev_slider_4_1_wrapper .custom.tparrows:before{font-family:'revicons';font-size:15px;color:#fff;display:block;line-height:40px;text-align:center}#rev_slider_4_1_wrapper .custom.tparrows.tp-leftarrow:before{content:'\e824'}#rev_slider_4_1_wrapper .custom.tparrows.tp-rightarrow:before{content:'\e825'}.custom.tp-bullets{}.custom.tp-bullets:before{content:' ';position:absolute;width:100%;height:100%;background:transparent;padding:10px;margin-left:-10px;margin-top:-10px;box-sizing:content-box}.custom .tp-bullet{width:12px;height:12px;position:absolute;background:#aaa;  background:rgba(125,125,125,0.5);cursor:pointer;box-sizing:content-box}.custom .tp-bullet.rs-touchhover,.custom .tp-bullet.selected{background:rgb(125,125,125)}.custom .tp-bullet-image{}.custom .tp-bullet-title{}
+		#rev_slider_4_1_wrapper rs-loader.spinner2{background-color:#ffd823 !important}
+</style>
+<script type="text/javascript" src="wp-includes/js/underscore.mind584.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" src="wp-content/plugins/contact-form-7/includes/swv/js/indexcfaa.js?ver=5.7.6" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.zoutula.com\/themes\/kiddie\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-content/plugins/contact-form-7/includes/js/indexcfaa.js?ver=5.7.6" id="contact-form-7-js"></script>
+<script type="text/javascript" src="wp-includes/js/imagesloaded.minbb93.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="wp-includes/js/masonry.min3a05.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="wp-includes/js/jquery/jquery.masonry.minef70.js?ver=3.1.2b" id="jquery-masonry-js"></script>
+<script type="text/javascript" src="wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="wp-includes/js/jquery/ui/tabs.min3f14.js?ver=1.13.2" id="jquery-ui-tabs-js"></script>
+<script type="text/javascript" src="wp-content/plugins/timetable/js/jquery.qtip.min5352.js?ver=6.4.4" id="jquery-qtip2-js"></script>
+<script type="text/javascript" src="wp-content/plugins/timetable/js/jquery.ba-bbq.min5352.js?ver=6.4.4" id="jquery-ba-bqq-js"></script>
+<script type="text/javascript" src="wp-content/plugins/timetable/js/jquery.carouFredSel-6.2.1-packed5352.js?ver=6.4.4" id="jquery-carouFredSel-js"></script>
+<script type="text/javascript" id="timetable_main-js-extra">
+/* <![CDATA[ */
+var tt_config = [];
+tt_config = {"ajaxurl":"https:\/\/www.zoutula.com\/themes\/kiddie\/wp-admin\/admin-ajax.php"};;
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-content/plugins/timetable/js/timetable5352.js?ver=6.4.4" id="timetable_main-js"></script>
+<script type="text/javascript" src="wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min56d7.js?ver=2.1.4-wc.7.7.0" id="js-cookie-js"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/themes\/kiddie\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/themes\/kiddie\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min4c53.js?ver=7.7.0" id="woocommerce-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/themes\/kiddie\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/themes\/kiddie\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_db01ac2e7836bfc867d6c5c06ffd52fe","fragment_name":"wc_fragments_db01ac2e7836bfc867d6c5c06ffd52fe","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min4c53.js?ver=7.7.0" id="wc-cart-fragments-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/bootstrap.min2f54.js?ver=4.1" id="bootstrap-js-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/kiddie-mobile2f54.js?ver=4.1" id="kiddie-mobile-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/kiddie-navigation2f54.js?ver=4.1" id="kiddie-navigation-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/jquery.prettyPhoto2f54.js?ver=4.1" id="pretty-photo-js-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/jquery.parallax2f54.js?ver=4.1" id="kiddie-js-parallax-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/jquery.waypoints.min2f54.js?ver=4.1" id="waypoint-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/inview.min2f54.js?ver=4.1" id="inview-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/retina.min2f54.js?ver=4.1" id="retina-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/kiddie-general2f54.js?ver=4.1" id="kiddie-general-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/skip-link-focus-fix2f54.js?ver=4.1" id="kiddie-skip-link-focus-js-js"></script>
+<script type="text/javascript" src="wp-includes/js/comment-reply.min5352.js?ver=6.4.4" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/owl.carousel.min2f54.js?ver=4.1" id="kiddie-js-owl-carousel-js"></script>
+<script type="text/javascript" src="wp-content/themes/kiddie/js/countUp.min2f54.js?ver=4.1" id="kiddie-js-count-up-js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAfz_ozFC-3PLVYL2GZmz60TWsikGuPdUY&amp;ver=4.1" id="kiddie-js-google-maps-js"></script>
+<script defer type="text/javascript" src="wp-content/plugins/akismet/_inc/akismet-frontend548d.js?ver=1684223971" id="akismet-frontend-js"></script>
+<script id="rs-initialisation-scripts">
+		var	tpj = jQuery;
+
+		var	revapi4;
+
+		if(window.RS_MODULES === undefined) window.RS_MODULES = {};
+		if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+		RS_MODULES.modules["revslider41"] = {once: RS_MODULES.modules["revslider41"]!==undefined ? RS_MODULES.modules["revslider41"].once : undefined, init:function() {
+			window.revapi4 = window.revapi4===undefined || window.revapi4===null || window.revapi4.length===0  ? document.getElementById("rev_slider_4_1") : window.revapi4;
+			if(window.revapi4 === null || window.revapi4 === undefined || window.revapi4.length==0) { window.revapi4initTry = window.revapi4initTry ===undefined ? 0 : window.revapi4initTry+1; if (window.revapi4initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider41"].init()}); return;}
+			window.revapi4 = jQuery(window.revapi4);
+			if(window.revapi4.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_4_1"); return;}
+			revapi4.revolutionInit({
+					revapi:"revapi4",
+					sliderLayout:"fullwidth",
+					duration:10000,
+					visibilityLevels:"1240,1024,778,480",
+					gridwidth:1050,
+					gridheight:600,
+					minHeight:600,
+					lazyType:"smart",
+					spinner:"spinner2",
+					perspectiveType:"local",
+					responsiveLevels:"1240,1024,778,480",
+					progressBar:{disableProgressBar:true},
+					navigation: {
+						mouseScrollNavigation:false,
+						touch: {
+							touchenabled:true
+						},
+						arrows: {
+							enable:true,
+							style:"custom",
+							left: {
+
+							},
+							right: {
+
+							}
+						},
+						bullets: {
+							enable:true,
+							tmp:"",
+							style:"custom",
+							space:15
+						}
+					},
+					viewPort: {
+						global:true,
+						globalDist:"-200px",
+						enable:false,
+						visible_area:"20%"
+					},
+					fallbacks: {
+						allowHTML5AutoPlayOnAndroid:true
+					},
+			});
+			
+		}} // End of RevInitScript
+
+		if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+	</script>
+
+	<a href="#" class="ztl-scroll-top"><i class="fa fa-angle-up"></i></a>
+</body>
+
+<!-- Mirrored from www.zoutula.com/themes/kiddie/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 May 2024 17:33:48 GMT -->
+</html>
+
+<!-- Dynamic page generated in 2.263 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2024-05-16 17:31:15 -->
+
+<!-- Compression = gzip -->

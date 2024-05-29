@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments for Kiddie	</title>
+	<atom:link href="https://www.zoutula.com/themes/kiddie/comments/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.zoutula.com/themes/kiddie</link>
+	<description>Kindergarten, Preschool - Responsive WordPress Theme</description>
+	<lastBuildDate>Tue, 06 Feb 2024 03:00:46 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.4</generator>
+	<item>
+		<title>
+		Comment on The Clever Car by John Doe		</title>
+		<link>https://www.zoutula.com/themes/kiddie/product/the-clever-car#comment-18</link>
+
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sun, 03 Jul 2016 15:59:46 +0000</pubDate>
+		<guid isPermaLink="false">http://zoutula.com/themes/kiddie-woo/product/the-clever-car/#comment-18</guid>
+
+					<description><![CDATA[Clever! That&#039;s true.]]></description>
+			<content:encoded><![CDATA[<p>Clever! That&#8217;s true.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on The Twirling Car by John Doe		</title>
+		<link>https://www.zoutula.com/themes/kiddie/product/the-twirling-car#comment-17</link>
+
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sun, 03 Jul 2016 14:43:33 +0000</pubDate>
+		<guid isPermaLink="false">http://zoutula.com/themes/kiddie-woo/product/the-twirling-car/#comment-17</guid>
+
+					<description><![CDATA[Nice one!]]></description>
+			<content:encoded><![CDATA[<p>Nice one!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on The Kiddie Car by John Doe		</title>
+		<link>https://www.zoutula.com/themes/kiddie/product/the-kiddie-car#comment-16</link>
+
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sun, 03 Jul 2016 14:34:39 +0000</pubDate>
+		<guid isPermaLink="false">http://zoutula.com/themes/kiddie-woo/product/the-kiddie-car/#comment-16</guid>
+
+					<description><![CDATA[Cool but to simple.]]></description>
+			<content:encoded><![CDATA[<p>Cool but to simple.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on The Busy Car by John Doe		</title>
+		<link>https://www.zoutula.com/themes/kiddie/product/the-busy-car#comment-15</link>
+
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sun, 03 Jul 2016 14:24:05 +0000</pubDate>
+		<guid isPermaLink="false">http://zoutula.com/themes/kiddie-woo/product/the-bussy-car/#comment-15</guid>
+
+					<description><![CDATA[Yuhuu! I can buy this!]]></description>
+			<content:encoded><![CDATA[<p>Yuhuu! I can buy this!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on The Wonder Car by John Doe		</title>
+		<link>https://www.zoutula.com/themes/kiddie/product/the-wonder-car#comment-14</link>
+
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sun, 03 Jul 2016 14:23:26 +0000</pubDate>
+		<guid isPermaLink="false">http://zoutula.com/themes/kiddie-woo/product/the-wonder-car/#comment-14</guid>
+
+					<description><![CDATA[Wonder Car is just perfect.]]></description>
+			<content:encoded><![CDATA[<p>Wonder Car is just perfect.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on The Blueberry Car by John Doe		</title>
+		<link>https://www.zoutula.com/themes/kiddie/product/the-blueberry-car#comment-13</link>
+
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sun, 03 Jul 2016 14:22:48 +0000</pubDate>
+		<guid isPermaLink="false">http://zoutula.com/themes/kiddie-woo/product/blueberry-car/#comment-13</guid>
+
+					<description><![CDATA[What a clean shop!]]></description>
+			<content:encoded><![CDATA[<p>What a clean shop!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

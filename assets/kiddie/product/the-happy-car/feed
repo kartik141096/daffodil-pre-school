@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: The Happy Car	</title>
+	<atom:link href="https://www.zoutula.com/themes/kiddie/product/the-happy-car/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.zoutula.com/themes/kiddie/product/the-happy-car</link>
+	<description>Kindergarten, Preschool - Responsive WordPress Theme</description>
+	<lastBuildDate>Wed, 12 Jul 2023 21:06:14 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.4</generator>
+	<item>
+		<title>
+		By: John Doe		</title>
+		<link>https://www.zoutula.com/themes/kiddie/product/the-happy-car#comment-11</link>
+
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sun, 03 Jul 2016 14:21:24 +0000</pubDate>
+		<guid isPermaLink="false">http://zoutula.com/themes/kiddie-woo/?post_type=product&#038;p=3331#comment-11</guid>
+
+					<description><![CDATA[Super Toy]]></description>
+			<content:encoded><![CDATA[<p>Super Toy</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John Doe		</title>
+		<link>https://www.zoutula.com/themes/kiddie/product/the-happy-car#comment-5</link>
+
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sun, 26 Jun 2016 16:15:45 +0000</pubDate>
+		<guid isPermaLink="false">http://zoutula.com/themes/kiddie-woo/?post_type=product&#038;p=3331#comment-5</guid>
+
+					<description><![CDATA[Great product!]]></description>
+			<content:encoded><![CDATA[<p>Great product!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
